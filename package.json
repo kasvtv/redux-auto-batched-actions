@@ -1,0 +1,32 @@
+{
+  "name": "redux-auto-batched-actions",
+  "version": "1.0.0",
+  "description": "A tiny library for that allows redux to dispatch an array of actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasvtv/redux-auto-batched-actions.git"
+  },
+  "keywords": [
+    "redux",
+    "actions",
+    "thunk",
+    "batch"
+  ],
+  "author": "Kas van 't Veer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kasvtv/redux-auto-batched-actions/issues"
+  },
+  "homepage": "https://github.com/kasvtv/redux-auto-batched-actions#readme",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "redux": "^4.0.1"
+  },
+  "dependencies": {
+    "redux-batched-actions": "^0.4.1"
+  }
+}
