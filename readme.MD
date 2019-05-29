@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/kasvtv/redux-auto-batched-actions/badge.svg?branch=master)](https://coveralls.io/github/kasvtv/redux-auto-batched-actions?branch=master)
 [![Dependency Status](https://david-dm.org/kasvtv/redux-auto-batched-actions.svg)](https://david-dm.org/kasvtv/redux-auto-batched-actions)
 [![Known Vulnerabilities](https://snyk.io/test/github/kasvtv/redux-auto-batched-actions/badge.svg?targetFile=package.json)](https://snyk.io/test/github/kasvtv/redux-auto-batched-actions?targetFile=package.json)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 # redux-auto-batched-actions
 
