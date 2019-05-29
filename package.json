@@ -1,35 +1,47 @@
 {
-  "name": "redux-auto-batched-actions",
-  "version": "1.0.0",
-  "description": "A tiny library for that allows redux to dispatch an array of actions",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "files": [
-    "index.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kasvtv/redux-auto-batched-actions.git"
-  },
-  "keywords": [
-    "redux",
-    "actions",
-    "thunk",
-    "batch"
-  ],
-  "author": "Kas van 't Veer",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kasvtv/redux-auto-batched-actions/issues"
-  },
-  "homepage": "https://github.com/kasvtv/redux-auto-batched-actions#readme",
-  "devDependencies": {
-    "jest": "^24.8.0",
-    "redux": "^4.0.1"
-  },
-  "dependencies": {
-    "redux-batched-actions": "^0.4.1"
-  }
+	"name": "redux-auto-batched-actions",
+	"version": "1.0.0",
+	"description": "A tiny library for that allows redux to dispatch an array of actions",
+	"main": "index.js",
+	"scripts": {
+		"test": "npm run lint && npm run es-check && jest",
+		"lint": "cross-env NODE_ENV=production eslint \"{xhr,lib,.}/*.js\"",
+		"es-check": "es-check es5 \"{xhr,lib,.}/!(*.test|*.conf).js\" --quiet"
+	},
+	"files": [
+		"**/!(*.test|*.conf).js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kasvtv/redux-auto-batched-actions.git"
+	},
+	"keywords": [
+		"redux",
+		"actions",
+		"thunk",
+		"batch"
+	],
+	"author": "Kas van 't Veer",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kasvtv/redux-auto-batched-actions/issues"
+	},
+	"homepage": "https://github.com/kasvtv/redux-auto-batched-actions#readme",
+	"devDependencies": {
+		"@types/jest": "^24.0.13",
+		"cross-env": "^5.2.0",
+		"es-check": "^5.0.0",
+		"eslint": "^5.16.0",
+		"eslint-plugin-import": "^2.17.3",
+		"eslint-plugin-jest": "^22.6.4",
+		"jest": "^24.8.0",
+		"redux": "^4.0.1",
+		"redux-batched-actions": "^0.4.1"
+	},
+	"peerDependencies": {
+		"redux-batched-actions": "^0.4.1"
+	},
+	"eslintIgnore": [
+		"!.eslintrc.js"
+	]
 }
