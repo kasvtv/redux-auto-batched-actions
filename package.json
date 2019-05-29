@@ -9,7 +9,7 @@
 		"es-check": "es-check es5 \"{xhr,lib,.}/!(*.test|*.conf).js\" --quiet"
 	},
 	"files": [
-		"**/!(*.test|*.conf).js"
+		"**/!(*.test|*.conf|.*).js"
 	],
 	"repository": {
 		"type": "git",
