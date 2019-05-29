@@ -5,8 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "npm run lint && npm run es-check && jest",
-		"lint": "cross-env NODE_ENV=production eslint \"{xhr,lib,.}/*.js\"",
-		"es-check": "es-check es5 \"{xhr,lib,.}/!(*.test|*.conf).js\" --quiet"
+		"lint": "cross-env NODE_ENV=production eslint \"{lib,.}/*.js\"",
+		"es-check": "es-check es5 \"{lib,.}/!(*.test|*.conf).js\" --quiet"
 	},
 	"files": [
 		"**/!(*.test|*.conf|.*).js"
