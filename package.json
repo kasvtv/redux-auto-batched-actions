@@ -1,6 +1,6 @@
 {
 	"name": "redux-auto-batched-actions",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A tiny library for that allows redux to dispatch an array of actions",
 	"main": "index.js",
 	"scripts": {
