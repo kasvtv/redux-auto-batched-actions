@@ -10,7 +10,7 @@
 
 I always thought `redux-batched-actions` was great to clean up your action log, but using it is a bit verbose. Why should I have to import and call `batchActions` all the time and hardcode the action names? Just passing an array to `dispatch` and joining the action or function names with commas seemed like a better API to me. **And that's exactly what this micro library does!**
 
-Since arrays as actions seem very uncommon in redux middleware, this is unlikely to clash with most any middlewares.
+Since arrays as actions seem very uncommon in redux middleware, this is unlikely to clash with most other middlewares.
 
 ## Installation
 
